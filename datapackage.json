@@ -1,0 +1,342 @@
+{
+  "name": "geo-boundaries-kz",
+  "title": "Geo boundaries Kazakhstan",
+  "resources": [
+    {
+      "path": "data/geojson/kz_0.json",
+      "pathType": "local",
+      "name": "kz_0",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "data/geojson/kz_1.json",
+      "pathType": "local",
+      "name": "kz_1",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/geojson/kz_2.json",
+      "pathType": "local",
+      "name": "kz_2",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/csv/gadm36_KAZ_0.csv",
+      "pathType": "local",
+      "name": "gadm36_kaz_0",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "ISO-8859-9",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "GID_0",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAME_0",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/csv/gadm36_KAZ_1.csv",
+      "pathType": "local",
+      "name": "gadm36_kaz_1",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "GID_0",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAME_0",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "GID_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAME_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "VARNAME_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NL_NAME_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "TYPE_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "ENGTYPE_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "CC_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "HASC_1",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/csv/gadm36_KAZ_2.csv",
+      "pathType": "local",
+      "name": "gadm36_kaz_2",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "UTF-8",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "GID_0",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAME_0",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "GID_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAME_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NL_NAME_1",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "GID_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NAME_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "VARNAME_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "NL_NAME_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "TYPE_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "ENGTYPE_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "CC_2",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "HASC_2",
+            "type": "string",
+            "format": "default"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "path": "data/topojson/kz.topojson.json",
+      "pathType": "local",
+      "name": "kz.topojson",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/svg/kz.svg",
+      "pathType": "local",
+      "name": "kz",
+      "format": "svg",
+      "mediatype": "image/svg+xml",
+      "encoding": "ISO-8859-2"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_0.cpg",
+      "pathType": "local",
+      "name": "gadm36_kaz_0",
+      "format": "cpg",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_0.dbf",
+      "pathType": "local",
+      "name": "gadm36_kaz_0",
+      "format": "dbf",
+      "encoding": "ISO-8859-2"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_0.prj",
+      "pathType": "local",
+      "name": "gadm36_kaz_0",
+      "format": "prj",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_1.dbf",
+      "pathType": "local",
+      "name": "gadm36_kaz_1",
+      "format": "dbf",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_0.shp",
+      "pathType": "local",
+      "name": "gadm36_kaz_0",
+      "format": "shp",
+      "encoding": "windows-1252"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_1.prj",
+      "pathType": "local",
+      "name": "gadm36_kaz_1",
+      "format": "prj",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_0.shx",
+      "pathType": "local",
+      "name": "gadm36_kaz_0",
+      "format": "shx",
+      "encoding": "windows-1251"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_1.shp",
+      "pathType": "local",
+      "name": "gadm36_kaz_1",
+      "format": "shp",
+      "encoding": "windows-1252"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_1.cpg",
+      "pathType": "local",
+      "name": "gadm36_kaz_1",
+      "format": "cpg",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_2.cpg",
+      "pathType": "local",
+      "name": "gadm36_kaz_2",
+      "format": "cpg",
+      "encoding": "UTF-8"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_2.dbf",
+      "pathType": "local",
+      "name": "gadm36_kaz_2",
+      "format": "dbf",
+      "encoding": "ISO-8859-9"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_1.shx",
+      "pathType": "local",
+      "name": "gadm36_kaz_1",
+      "format": "shx",
+      "encoding": "ISO-8859-5"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_2.prj",
+      "pathType": "local",
+      "name": "gadm36_kaz_2",
+      "format": "prj",
+      "encoding": "ISO-8859-1"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_2.shp",
+      "pathType": "local",
+      "name": "gadm36_kaz_2",
+      "format": "shp",
+      "encoding": "windows-1252"
+    },
+    {
+      "path": "data/shape/gadm36_KAZ_2.shx",
+      "pathType": "local",
+      "name": "gadm36_kaz_2",
+      "format": "shx",
+      "encoding": "UTF-32BE"
+    }
+  ],
+  "readme": "",
+  "description": "",
+  "licenses": [
+    {
+      "name": "ODC-PDDL",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License"
+    }
+  ]
+}
