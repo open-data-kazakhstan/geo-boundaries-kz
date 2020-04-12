@@ -328,9 +328,18 @@
       "name": "gadm36_kaz_2",
       "format": "shx",
       "encoding": "UTF-32BE"
+    },
+    {
+      "path": "data/geojson/kz_1_1.json",
+      "pathType": "local",
+      "name": "kz_1_1",
+      "description": "GeoJSON for Kazakhstan regions including 3 cities Almaty, Nur-Sultan and Shymkent.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "UTF-8"
     }
   ],
-  "readme": "",
+  "readme": "Geo data for Kazakhstan regions.\n\n## Data\n\nData is provided in the following formats:\n\n* CSV\n* GeoJSON\n* TopoJSON\n* Shape\n* SVG\n\nIt is sourced from https://gadm.org/.\n\n## License\n\nThis dataset is licensed under the Open Data Commons Public Domain and Dedication License.\n",
   "description": "",
   "licenses": [
     {
